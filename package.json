@@ -1,0 +1,28 @@
+{
+  "name": "adecomp",
+  "version": "1.0.0",
+  "description": "Website for retail business",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gatoarmen/adecomp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gatoarmen/adecomp/issues"
+  },
+  "homepage": "https://github.com/gatoarmen/adecomp#readme",
+  "dependencies": {
+    "bootstrap": "^4.1.3",
+    "browser-sync": "^2.24.7",
+    "express": "^4.16.3",
+    "gulp": "^3.9.1",
+    "gulp-nodemon": "^2.2.1",
+    "jquery": "^3.3.1"
+  }
+}
