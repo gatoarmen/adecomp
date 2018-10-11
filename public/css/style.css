@@ -1,5 +1,27 @@
+
+
 .container {
     max-width: 960px;
+    
+  }
+  
+  
+  .carousel {
+    width: auto;
+    
+    max-height: 914px;
+  }
+  img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+  .carousel-inner {
+     height: auto;
+  }
+
+  svg {
+    margin-right: 10px
   }
   
   /*
@@ -7,16 +29,20 @@
    */
   
   .site-header {
-    background-color: rgb(17, 24, 8);
+    background-color: #2E57A6;
     -webkit-backdrop-filter: saturate(180%) blur(20px);
     backdrop-filter: saturate(180%) blur(20px);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    text-shadow:  1px rgb(15, 14, 14);
+   
   }
   .site-header a {
-    color: #999;
+    color: #fff;
     transition: ease-in-out color .15s;
   }
   .site-header a:hover {
-    color: #fff;
+    color: rgba(15, 14, 14, 0.123);
     text-decoration: none;
   }
   
